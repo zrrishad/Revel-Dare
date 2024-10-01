@@ -44,7 +44,7 @@
 
 
     <HorizontalScrollView
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="@dimen/_120sdp"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -71,8 +71,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="@dimen/_300sdp"
-                        android:layout_height="@dimen/_500sdp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -95,8 +95,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="@dimen/_50ssp"
-                            android:layout_marginTop="@dimen/_450sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -109,7 +109,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -120,7 +120,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -215,8 +215,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="@dimen/_200sdp"
-                        android:layout_height="@dimen/_500sdp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -238,8 +238,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -252,7 +252,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -263,7 +263,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -288,8 +288,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -311,8 +311,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -325,7 +325,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -336,7 +336,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -358,8 +358,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -381,8 +381,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -395,7 +395,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -406,7 +406,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -428,8 +428,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -451,8 +451,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -465,7 +465,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -476,7 +476,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -499,8 +499,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -522,8 +522,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -536,7 +536,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -547,7 +547,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -574,8 +574,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -597,8 +597,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -611,7 +611,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -622,7 +622,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -648,8 +648,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -671,8 +671,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -685,7 +685,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -696,7 +696,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -720,8 +720,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -743,8 +743,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -757,7 +757,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -768,7 +768,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -795,8 +795,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -818,8 +818,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -832,7 +832,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -843,7 +843,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -867,8 +867,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -890,8 +890,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -904,7 +904,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -915,7 +915,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -938,8 +938,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -961,8 +961,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -975,7 +975,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -986,7 +986,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1011,8 +1011,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1034,8 +1034,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1048,7 +1048,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1059,7 +1059,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1084,8 +1084,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1107,8 +1107,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1121,7 +1121,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1132,7 +1132,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1157,8 +1157,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1180,8 +1180,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1194,7 +1194,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1205,7 +1205,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1231,8 +1231,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1254,8 +1254,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1268,7 +1268,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1279,7 +1279,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1302,8 +1302,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1397,8 +1397,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1411,7 +1411,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1422,7 +1422,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1446,8 +1446,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1469,8 +1469,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1483,7 +1483,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1494,7 +1494,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1518,8 +1518,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1541,8 +1541,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1555,7 +1555,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1566,7 +1566,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1592,8 +1592,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1615,8 +1615,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1629,7 +1629,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1640,7 +1640,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1664,8 +1664,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1687,8 +1687,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1701,7 +1701,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1712,7 +1712,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1735,8 +1735,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1758,8 +1758,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1772,7 +1772,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1783,7 +1783,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1805,8 +1805,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1828,8 +1828,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1842,7 +1842,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1853,7 +1853,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1878,8 +1878,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1901,8 +1901,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1915,7 +1915,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1926,7 +1926,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1951,8 +1951,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -1974,8 +1974,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1988,7 +1988,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1999,7 +1999,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -2022,8 +2022,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -2045,8 +2045,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -2059,7 +2059,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -2070,7 +2070,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -2094,8 +2094,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -2117,8 +2117,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -2131,7 +2131,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -2142,7 +2142,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -2167,8 +2167,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -2190,8 +2190,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -2204,7 +2204,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -2215,7 +2215,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 

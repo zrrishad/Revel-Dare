@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Deep Questions"
-                android:textSize="15dp"
+                android:textSize="@dimen/_15ssp"
                 android:background="#FFE57F"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"

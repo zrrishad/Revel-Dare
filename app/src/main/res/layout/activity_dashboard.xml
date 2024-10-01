@@ -17,14 +17,14 @@
         android:orientation="horizontal"
         android:gravity="center"
 
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="@dimen/_50sdp">
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Reveal"
-            android:textSize="30dp"
+            android:textSize="@dimen/_30ssp"
             android:layout_marginRight="6dp"
             android:textColor="#0ED3D3"
             android:textStyle="bold"></TextView>
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dare"
-            android:textSize="30dp"
+            android:textSize="@dimen/_30ssp"
             android:textStyle="bold"
             android:layout_marginLeft="6dp"
             android:textColor="#E90721"></TextView>
