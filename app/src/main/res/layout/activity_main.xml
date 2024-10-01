@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Reveal"
-            android:textSize="30dp"
+            android:textSize="@dimen/_30ssp"
             android:layout_marginRight="6dp"
             android:textColor="#0ED3D3"
             android:textStyle="bold"></TextView>
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dare"
-            android:textSize="30dp"
+            android:textSize="@dimen/_30ssp"
             android:textStyle="bold"
             android:layout_marginLeft="6dp"
             android:textColor="#E90721"></TextView>
@@ -71,8 +71,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_300sdp"
+                        android:layout_height="@dimen/_500sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -89,14 +89,14 @@
                             android:gravity="center"
                             android:textColor="#000"
                             android:textStyle="bold"
-                            android:textSize="18dp"
+                            android:textSize="@dimen/_18ssp"
                             ></TextView>
 
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50ssp"
+                            android:layout_marginTop="@dimen/_450sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
