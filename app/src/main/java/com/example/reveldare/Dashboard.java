@@ -94,24 +94,24 @@ public class Dashboard extends AppCompatActivity {
                 public void onClick(View view) {
 
 
-                    if (Title.contains("Deep Questions")){
+                    if (Title.contains("Thought Provoking Question")){
 
                         Intent myIntent=new Intent(Dashboard.this,MainActivity.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Late Night Talks")) {
+                    } else if (Title.contains("Midnight Conversations")) {
                         Intent myIntent=new Intent(Dashboard.this,MainActivity2.class);
                         startActivity(myIntent);
 
-                   } else if (Title.contains("For Best Friends")) {
+                   } else if (Title.contains("For Best Buddies")) {
                        Intent myIntent=new Intent(Dashboard.this,MainActivity3.class);
                        startActivity(myIntent);
 
-                    } else if (Title.contains("Getting to Know")) {
+                    } else if (Title.contains("Finding Out About")) {
                         Intent myIntent=new Intent(Dashboard.this,MainActivity4.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("For Siblings")) {
+                    } else if (Title.contains("For Brother and Sisters")) {
                         Intent myIntent=new Intent(Dashboard.this,MainActivity5.class);
                         startActivity(myIntent);
 
@@ -135,31 +135,31 @@ public class Dashboard extends AppCompatActivity {
     private void createtable(){
         hashMap=new HashMap<>();
         hashMap.put("image_url","");
-        hashMap.put("Title","Deep Questions");
-        hashMap.put("Des","Questions that hit deep");
+        hashMap.put("Title","Thought Provoking Question");
+        hashMap.put("Des","Questions the hit deep ");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Late Night Talks");
-        hashMap.put("Des","Late night talks that hit deep");
+        hashMap.put("Title","Midnight Conversations");
+        hashMap.put("Des","Get to know each other for real");
         arrayList.add(hashMap);
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","For Best Friends");
-        hashMap.put("Des","For best friends that hit deep");
-        arrayList.add(hashMap);
-
-
-        hashMap=new HashMap<>();
-        hashMap.put("Title","Getting to Know");
-        hashMap.put("Des","Getting to know that hit deep");
+        hashMap.put("Title","For Best Buddies");
+        hashMap.put("Des","How well do you really know them?");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","For Siblings");
-        hashMap.put("Des","Fuck you asma");
+        hashMap.put("Title","Finding Out About");
+        hashMap.put("Des","Questions to meet someone new");
+        arrayList.add(hashMap);
+
+
+        hashMap=new HashMap<>();
+        hashMap.put("Title","For Brother and Sisters");
+        hashMap.put("Des","Ask each other before its too late");
         arrayList.add(hashMap);
 
 

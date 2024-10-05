@@ -2,6 +2,7 @@ package com.example.reveldare;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,12 +18,18 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 public class CupleDashboad extends AppCompatActivity {
 
     ListView edList;
+
 
 
     HashMap<String,String> hashMap=new HashMap<>();
@@ -36,10 +43,12 @@ public class CupleDashboad extends AppCompatActivity {
         setContentView(R.layout.activity_cuple_dashboad);
         edList=findViewById(R.id.edList);
 
+
        MyAdapter myAdapter=new MyAdapter();
         createtable();
 
         edList.setAdapter(myAdapter);
+
 
     }
 
@@ -80,13 +89,17 @@ public class CupleDashboad extends AppCompatActivity {
             edTitle.setText(Title);
             edDes.setText(Des);
 
+            Random rnd = new Random();
+            int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+            edTitle.setBackgroundColor(color);
+
 
             edLay.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
 
-                    if (Title.contains("Couple Questions")){
+                    if (Title.contains("Couple Discussions")){
 
                         Intent myIntent=new Intent(CupleDashboad.this,CupleActivity1.class);
                         startActivity(myIntent);
@@ -95,15 +108,15 @@ public class CupleDashboad extends AppCompatActivity {
                         Intent myIntent=new Intent(CupleDashboad.this,CupleActivity2.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Couple Therapy")) {
+                    } else if (Title.contains("Relationship Counseling")) {
                         Intent myIntent=new Intent(CupleDashboad.this,CupleActivity3.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("For Long-Distance")) {
+                    } else if (Title.contains("For Distance Relationship")) {
                         Intent myIntent=new Intent(CupleDashboad.this,CupleActivity4.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Naughty Questions")) {
+                    } else if (Title.contains("Mischievous Questions")) {
                         Intent myIntent=new Intent(CupleDashboad.this,CoupleActivity5.class);
                         startActivity(myIntent);
 
@@ -127,7 +140,7 @@ public class CupleDashboad extends AppCompatActivity {
     private void createtable(){
         hashMap=new HashMap<>();
         hashMap.put("image_url","");
-        hashMap.put("Title","Couple Questions");
+        hashMap.put("Title","Couple Discussions");
         hashMap.put("Des","Questions that will love you feeling closer");
         arrayList.add(hashMap);
 
@@ -138,19 +151,19 @@ public class CupleDashboad extends AppCompatActivity {
         arrayList.add(hashMap);
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Couple Therapy");
+        hashMap.put("Title","Relationship Counseling");
         hashMap.put("Des","Deep and rarely asked questions.Meant to heal");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","For Long-Distance");
+        hashMap.put("Title","For Distance Relationship");
         hashMap.put("Des","Warning this will make it difficult to hang up");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Naughty Questions");
+        hashMap.put("Title","Mischievous Questions");
         hashMap.put("Des","Question for every coupls favorite subject");
         arrayList.add(hashMap);
 

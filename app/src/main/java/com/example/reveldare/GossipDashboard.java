@@ -2,6 +2,7 @@ package com.example.reveldare;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +20,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 public class GossipDashboard extends AppCompatActivity {
 
@@ -80,30 +82,34 @@ public class GossipDashboard extends AppCompatActivity {
             edTitle.setText(Title);
             edDes.setText(Des);
 
+            Random rnd = new Random();
+            int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+            edTitle.setBackgroundColor(color);
+
 
             edLay.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
 
-                    if (Title.contains("Spill the Tea")){
+                    if (Title.contains("Spread The Tea")){
 
                         Intent myIntent=new Intent(GossipDashboard.this,GossipActivity1.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Juicy Convos")) {
+                    } else if (Title.contains("Exciting Discussions")) {
                         Intent myIntent=new Intent(GossipDashboard.this,GossipActivity2.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Confessions")) {
+                    } else if (Title.contains("Admitting The Truth")) {
                         Intent myIntent=new Intent(GossipDashboard.this,GossipActivity3.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Spicy Questions")) {
+                    } else if (Title.contains("Intriguing Queries")) {
                         Intent myIntent=new Intent(GossipDashboard.this,GossipActivity4.class);
                         startActivity(myIntent);
 
-                    } else if (Title.contains("Would You Rather")) {
+                    } else if (Title.contains("Which Do You Prefer")) {
                         Intent myIntent=new Intent(GossipDashboard.this,GossipActivity5.class);
                         startActivity(myIntent);
 
@@ -127,30 +133,30 @@ public class GossipDashboard extends AppCompatActivity {
     private void createtable(){
         hashMap=new HashMap<>();
         hashMap.put("image_url","");
-        hashMap.put("Title","Spill the Tea");
+        hashMap.put("Title","Spread The Tea");
         hashMap.put("Des","you just had an hour-long gossip session");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Juicy Convos");
+        hashMap.put("Title","Exciting Discussions");
         hashMap.put("Des","All about relationships, cheating, and exes!");
         arrayList.add(hashMap);
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Confessions");
+        hashMap.put("Title","Admitting The Truth");
         hashMap.put("Des","Expose your hidden secrets,no one is safe");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Spicy Questions");
+        hashMap.put("Title","Intriguing Queries");
         hashMap.put("Des","Turn up the heat with-extra risque dares");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
-        hashMap.put("Title","Would You Rather");
+        hashMap.put("Title","Which Do You Prefer");
         hashMap.put("Des","The classic game but much more intense");
         arrayList.add(hashMap);
 

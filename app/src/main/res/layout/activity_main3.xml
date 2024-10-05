@@ -10,10 +10,6 @@
     android:background="@drawable/pic_7">
 
 
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -736,7 +732,7 @@
                             android:id="@+id/text10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Rishad is a good boy,,i am a student, i ma a android devloper"
+                            android:text=""
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textColor="#000"
@@ -1328,8 +1324,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginTop="450dp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_350sdp"
                             android:background="#000"
                             android:orientation="horizontal"
                             android:gravity="right"
@@ -1342,7 +1338,7 @@
                                 android:layout_marginRight="6dp"
                                 android:text="Reveal"
                                 android:textColor="#0ED3D3"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1353,7 +1349,7 @@
                                 android:layout_marginLeft="6dp"
                                 android:text="Dare"
                                 android:textColor="#CE0930"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_20ssp"
                                 android:textStyle="bold"></TextView>
 
 
@@ -1377,8 +1373,8 @@
 
                     <androidx.cardview.widget.CardView
                         android:backgroundTint="#ffffff"
-                        android:layout_width="300dp"
-                        android:layout_height="500dp"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_400sdp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
@@ -2240,10 +2236,6 @@
         </LinearLayout>
 
     </HorizontalScrollView>
-
-
-
-
 
 
 
