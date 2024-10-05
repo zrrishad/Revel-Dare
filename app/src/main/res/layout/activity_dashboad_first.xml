@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Dashboad_ActivityFirst"
     android:orientation="vertical"
-    android:background="@drawable/fist_back2">
+    android:background="@drawable/fist_back4">
 
 
 
