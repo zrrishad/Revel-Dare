@@ -85,7 +85,7 @@ TextView text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,tex
 
 
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
-        String url = "http://192.168.0.123/apps/load.server";
+        String url = "http://192.168.1.107/apps/load.server";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,

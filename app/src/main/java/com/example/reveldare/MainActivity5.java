@@ -64,7 +64,7 @@ public class MainActivity5 extends AppCompatActivity {
 
 
         RequestQueue queue = Volley.newRequestQueue(MainActivity5.this);
-        String url = "http://192.168.0.123/apps/load%20server.five";
+        String url = "http://192.168.1.107/apps/load%20server.five";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,

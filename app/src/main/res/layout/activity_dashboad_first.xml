@@ -43,6 +43,22 @@
     </LinearLayout>
 
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_200sdp"
@@ -273,7 +289,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button3"
-        android:layout_width="@dimen/_158sdp"
+        android:layout_width="@dimen/_130sdp"
         android:layout_height="@dimen/_150sdp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
@@ -291,16 +307,16 @@
 
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/_130sdp"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="1">
+           >
 
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="@dimen/_130sdp"
                 android:layout_height="@dimen/_150sdp"
                 android:orientation="vertical"
-                android:layout_weight="1"
+
                 android:layout_gravity="center"
                 android:gravity="center">
 
@@ -321,7 +337,9 @@
                     android:textSize="@dimen/_13ssp"
                     android:textColor="#000"
                     android:textStyle="bold"
-                    android:layout_marginTop="@dimen/_6sdp"></TextView>
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_gravity="center"
+                    android:gravity="center"></TextView>
 
 
 
@@ -357,7 +375,18 @@
 
 
 
+            <LinearLayout
+                android:id="@+id/adContainerView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="vertical"
 
+                ></LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 

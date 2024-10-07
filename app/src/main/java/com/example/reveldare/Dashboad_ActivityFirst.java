@@ -8,6 +8,7 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +24,9 @@ import androidx.core.view.WindowInsetsCompat;
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 
@@ -46,6 +50,7 @@ public class Dashboad_ActivityFirst extends AppCompatActivity implements Network
        button1=findViewById(R.id.button1);
        button2=findViewById(R.id.button2);
        button3=findViewById(R.id.button3);
+
 
         imageSli=findViewById(R.id.imageSli);
 
@@ -87,7 +92,6 @@ public class Dashboad_ActivityFirst extends AppCompatActivity implements Network
 
             }
         });
-
 
 
 

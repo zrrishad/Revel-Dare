@@ -62,7 +62,7 @@ public class CupleActivity4 extends AppCompatActivity {
         text30=findViewById(R.id.text30);
 
         RequestQueue queue = Volley.newRequestQueue(CupleActivity4.this);
-        String url = "http://192.168.0.123/apps/load%20server%20cupple.four";
+        String url = "http://192.168.1.107/apps/load%20server%20cupple.four";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
