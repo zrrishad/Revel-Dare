@@ -2,6 +2,8 @@ package com.example.reveldare;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -10,6 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -23,12 +26,19 @@ import org.json.JSONObject;
 public class MainActivity2 extends AppCompatActivity {
 
     TextView text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,text23,text24,text25,text26,text27,text28,text29,text30;
+    LottieAnimationView animationView;
+    HorizontalScrollView edScorrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main2);
+
+
+        animationView=findViewById(R.id.animationView);
+        edScorrl=findViewById(R.id.edScorrl);
+
 
 
 
@@ -75,6 +85,8 @@ public class MainActivity2 extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
+                       animationView.setVisibility(View.GONE);
+                        edScorrl.setVisibility(View.VISIBLE);
                         // Display the first 500 characters of the response string.
 
                         Log.d("serverRes",response);

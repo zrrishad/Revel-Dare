@@ -50,8 +50,12 @@ HorizontalScrollView edScorrl;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         animationView=findViewById(R.id.animationView);
         edScorrl=findViewById(R.id.edScorrl);
+
+
         text1=findViewById(R.id.text1);
         text2=findViewById(R.id.text2);
         text3=findViewById(R.id.text3);
