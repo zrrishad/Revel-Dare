@@ -27,7 +27,6 @@ public class GossipActivity4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_gossip4);
 
         text1=findViewById(R.id.text1);
@@ -63,10 +62,10 @@ public class GossipActivity4 extends AppCompatActivity {
 
 
         RequestQueue queue = Volley.newRequestQueue(GossipActivity4.this);
-        String url = "http://192.168.157.159/apps/load%20server%20gossip.four";
+        String url ="http://192.168.1.107/apps/load%20server%20gossip.four";
 
 // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+        StringRequest stringRequest = new StringRequest(Request.Method.GET,url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -18,6 +19,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -39,6 +41,8 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity {
 
 TextView text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,text23,text24,text25,text26,text27,text28,text29,text30;
+LottieAnimationView animationView;
+HorizontalScrollView edScorrl;
 
 
 
@@ -46,6 +50,8 @@ TextView text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,tex
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        animationView=findViewById(R.id.animationView);
+        edScorrl=findViewById(R.id.edScorrl);
         text1=findViewById(R.id.text1);
         text2=findViewById(R.id.text2);
         text3=findViewById(R.id.text3);
@@ -90,8 +96,12 @@ TextView text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,tex
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
+
                     @Override
                     public void onResponse(String response) {
+                        animationView.setVisibility(View.GONE);
+                        edScorrl.setVisibility(View.VISIBLE);
+
                         // Display the first 500 characters of the response string.
 
                         Log.d("serverRes",response);

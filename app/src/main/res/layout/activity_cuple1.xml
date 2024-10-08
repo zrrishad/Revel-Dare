@@ -41,12 +41,23 @@
     </LinearLayout>
 
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/load_1"
+        app:lottie_autoPlay="true"
+        android:visibility="visible"
+        app:lottie_loop="true"/>
 
     <HorizontalScrollView
+        android:id="@+id/edScorrl"
+        android:visibility="gone"
         android:layout_marginTop="@dimen/_120sdp"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
         <LinearLayout
             android:layout_width="match_parent"

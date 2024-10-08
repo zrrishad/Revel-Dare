@@ -147,19 +147,19 @@ public class Dashboard extends AppCompatActivity {
 
         hashMap=new HashMap<>();
         hashMap.put("Title","For Best Buddies");
-        hashMap.put("Des","How well do you really know them?");
+        hashMap.put("Des","How well do you really know \nthem?");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
         hashMap.put("Title","Finding Out About");
-        hashMap.put("Des","Questions to meet someone new");
+        hashMap.put("Des","Questions to meet someone\n new");
         arrayList.add(hashMap);
 
 
         hashMap=new HashMap<>();
         hashMap.put("Title","For Brother and Sisters");
-        hashMap.put("Des","Ask each other before its too late");
+        hashMap.put("Des","Ask each other before its too\n late");
         arrayList.add(hashMap);
 
 

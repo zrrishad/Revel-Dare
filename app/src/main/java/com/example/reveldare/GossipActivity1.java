@@ -64,13 +64,17 @@ public class GossipActivity1 extends AppCompatActivity {
 
 
         RequestQueue queue = Volley.newRequestQueue(GossipActivity1.this);
-        String url = "http://192.168.157.159/apps/load%20server%20gossip.one";
+        String url = "http://192.168.1.107/apps/load%20server%20gossip.one";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
+
+                        
+
+
                         // Display the first 500 characters of the response string.
 
                         Log.d("serverRes",response);

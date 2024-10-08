@@ -64,7 +64,7 @@ public class GossipActivity3 extends AppCompatActivity {
 
 
         RequestQueue queue = Volley.newRequestQueue(GossipActivity3.this);
-        String url = "http://192.168.157.159/apps/load%20server%20gossip.three";
+        String url = "http://192.168.1.107/apps/load%20server%20gossip.three";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,

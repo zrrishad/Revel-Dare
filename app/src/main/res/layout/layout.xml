@@ -23,7 +23,7 @@
             android:id="@+id/animationView"
             android:layout_width="@dimen/_90sdp"
             android:layout_height="@dimen/_90sdp"
-            app:lottie_rawRes="@raw/anim_1"
+            app:lottie_rawRes="@raw/emoji_1"
             app:lottie_autoPlay="true"
             android:scaleType="centerCrop"
             app:lottie_loop="true"/>
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Questions that hit deep"
-                android:maxLines="1"
+                android:maxLines="2"
                 android:ellipsize="end"
                 android:textStyle="bold"
                 android:textColor="#000"
